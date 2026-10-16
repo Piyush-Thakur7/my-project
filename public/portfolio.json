@@ -1,57 +1,57 @@
 {
   "name": "Piyush Singh",
-  "role": "Aspiring Cloud Developer",
-  "tagline": "Building modern web experiences with React.",
-  "about": "I am a computer science student passionate about web development and solving real-world problems.",
-  "goals": "I want to join a product team as a full stack developer and keep learning from experienced engineers.",
-  "interests": ["Web development", "Open source", "Problem solving", "UI design"],
+  "role": "Founder @ Resence | GSA '26 | AI & Cloud Builder",
+  "tagline": "Building intelligent agentic systems, scalable web apps, and AI micro-solutions.",
+  "about": "BCA (AI/ML) 2nd-year student at GL Bajaj Institute of Management (GLBIM), Greater Noida (affiliated with CCSU). Selected Google Student Ambassador (GSA '26) and Founder of Resence, directing modern AI agentic workflows to build, deploy, and scale functional full-stack platforms.",
+  "goals": "To architect robust agentic commerce systems, scale ACTA and WellBridge AI into production impact engines, and master cloud-native AI engineering.",
+  "interests": ["Agentic AI & MCP", "Cloud Engineering", "Full Stack Web", "Generative AI", "Fintech & Impact", "System Design"],
   "profileImage": "/profile.png",
-  "email": "aarav@example.com",
+  "email": "th.piyushsingh2007@gmail.com",
   "socials": {
     "github": "https://github.com/Piyush-Thakur7",
     "linkedin": "https://linkedin.com/in/piyush-singh2007"
   },
   "skills": [
-    { "category": "Frontend", "items": ["HTML", "CSS", "JavaScript", "React.js"] },
-    { "category": "Backend", "items": ["Node.js", "Express.js"] },
-    { "category": "Database", "items": ["MongoDB"] },
-    { "category": "Tools", "items": ["Git", "GitHub"] }
+    { "category": "Frontend", "items": ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Responsive UI"] },
+    { "category": "Backend & Cloud", "items": ["Node.js", "Express.js", "REST APIs", "Google Cloud", "Firebase"] },
+    { "category": "AI & Architecture", "items": ["Generative AI", "MCP (Model Context Protocol)", "Prompt Engineering", "Python"] },
+    { "category": "Tools & DevOps", "items": ["Git & GitHub", "Vite", "Vercel", "VS Code", "MySQL"] }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Student Management System",
-      "description": "A simple application to manage student records.",
-      "technologies": ["React", "CSS", "Node.js"],
-      "github": "https://github.com/",
-      "demo": "https://example.com/",
-      "image": "/my-project.jpg"
+      "title": "ACTA — Micro-Donation & Audit Platform",
+      "description": "Venture-grade transparent micro-aid platform with a 95/5 zero-leakage escrow model, live GPS/video audit trail, and campus guild leaderboards.",
+      "technologies": ["React", "Node.js", "Express", "REST APIs", "Vercel"],
+      "github": "https://github.com/Piyush-Thakur7/ACTA",
+      "demo": "https://acta.resence.in",
+      "image": "/image.png"
     },
     {
       "id": 2,
-      "title": "Weather Application",
-      "description": "A responsive application displaying weather information.",
-      "technologies": ["React", "CSS", "JavaScript"],
-      "github": "https://github.com/",
-      "demo": "https://example.com/",
+      "title": "WellBridge AI — Patient Health Journal",
+      "description": "Intelligent healthcare assistant with Gemini Vision OCR for prescription parsing, health logs, and authenticated patient journals.",
+      "technologies": ["TypeScript", "Gemini Vision", "Firebase Auth", "Cloud Run"],
+      "github": "https://github.com/Piyush-Thakur7/WellBridge",
+      "demo": "https://wellbridgeai.resence.in",
       "image": "/my-project.jpg"
     },
     {
       "id": 3,
-      "title": "Task Management Application",
-      "description": "An application for organizing everyday tasks.",
-      "technologies": ["React", "CSS", "JavaScript"],
-      "github": "https://github.com/",
-      "demo": "https://example.com/",
+      "title": "RazorAgent — MCP Commerce Gateway",
+      "description": "Published NPM package implementing Model Context Protocol (MCP) server for agentic payments, invoice verification, and escrow settlement.",
+      "technologies": ["TypeScript", "Node.js", "MCP", "NPM Package", "Payment APIs"],
+      "github": "https://github.com/Piyush-Thakur7/razoragent",
+      "demo": "https://razoragent.resence.in",
       "image": "/my-project.jpg"
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Computer Applications",
-      "college": "ABC College",
-      "year": "2026",
-      "description": "Studying programming and web development."
+      "degree": "Bachelor of Computer Applications (BCA) — AI & ML",
+      "college": "GL Bajaj Institute of Management (GLBIM), Greater Noida",
+      "year": "2024 – 2027",
+      "description": "2nd-Year Student (3rd Semester) affiliated with CCS University. Focused on AI/ML, Cloud Computing, Database Management, and Data Structures."
     }
   ]
 }
