@@ -1,29 +1,59 @@
+import { useState } from "react";
 import { Github, ExternalLink } from "lucide-react";
 
-function ProjectCard({project}) {
+function ProjectCard({ project = {} }) {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <div className="card project-card">
       <div className="project-image">
-        {
-          project.image ?(
-            <img src = {project.image} alt = {project.title}/>
-          ):(
-            <span className="image-placeholder">{project.title[0]}</span>
-          )
-        }
-        
+        {project.image && !imgError ? (
+          <img
+            src={project.image}
+            alt={project.title || "Project"}
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <span className="image-placeholder">
+            {project.title ? project.title[0] : "P"}
+          </span>
+        )}
       </div>
 
-      <h3></h3>
-      <p className="muted"></p>
+      <h3>{project.title}</h3>
+      <p className="muted">{project.description}</p>
 
-      <div className="badges">
-        <span className="badge small"></span>
-      </div>
+      {project.technologies && project.technologies.length > 0 && (
+        <div className="badges">
+          {project.technologies.map((tech) => (
+            <span key={tech} className="badge small">
+              {tech}
+            </span>
+          ))}
+        </div>
+      )}
 
       <div className="project-links">
-        <a className="btn btn-ghost btn-small"><Github size={16} /></a>
-        <a className="btn btn-primary btn-small"><ExternalLink size={16} /></a>
+        {project.github && (
+          <a
+            className="btn btn-ghost btn-small"
+            href={project.github}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github size={16} /> Code
+          </a>
+        )}
+        {project.demo && (
+          <a
+            className="btn btn-primary btn-small"
+            href={project.demo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ExternalLink size={16} /> Demo
+          </a>
+        )}
       </div>
     </div>
   );

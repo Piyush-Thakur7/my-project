@@ -19,7 +19,7 @@ function App() {
     fetch('/portfolio.json')
     .then((response)=>{
       if(!response.ok){
-        throw new error("Request failed");
+        throw new Error("Request failed");
     }
     return response.json();
     })
@@ -34,7 +34,7 @@ function App() {
   },[])
 
   if(loading) return <p className="status">Loading Portfolio...</p>
-  if(error) return <p className="status">unable to load portfolio</p>
+  if(error || !data) return <p className="status">Unable to load portfolio</p>
   return (
     <>
       <Navbar name= {data.name} />

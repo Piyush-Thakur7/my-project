@@ -12,7 +12,7 @@ function About({data}) {
           <h3>Interests</h3>
           <div className="badges">
             {
-              data.interests.map((item)=>(
+              data?.interests && data.interests.map((item)=>(
                 <span key={item} className="badge">{item}</span>
               ))
             }
