@@ -1,6 +1,6 @@
 {
   "name": "Piyush Singh",
-  "role": "Founder @ Resence | GSA '26 | AI & Cloud Builder",
+  "role": "Aspiring Cloud/Devops Engineer",
   "tagline": "Building intelligent agentic systems, scalable web apps, and AI micro-solutions.",
   "about": "BCA (AI/ML) 2nd-year student at GL Bajaj Institute of Management (GLBIM), Greater Noida (affiliated with CCSU). Selected Google Student Ambassador (GSA '26) and Founder of Resence, directing modern AI agentic workflows to build, deploy, and scale functional full-stack platforms.",
   "goals": "To architect robust agentic commerce systems, scale ACTA and WellBridge AI into production impact engines, and master cloud-native AI engineering.",
@@ -25,7 +25,7 @@
       "technologies": ["React", "Node.js", "Express", "REST APIs", "Vercel"],
       "github": "https://github.com/Piyush-Thakur7/ACTA",
       "demo": "https://acta.resence.in",
-      "image": "/image.png"
+      "image": "/ACTA_Official_App_Icon_Square.png"
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
       "technologies": ["TypeScript", "Gemini Vision", "Firebase Auth", "Cloud Run"],
       "github": "https://github.com/Piyush-Thakur7/WellBridge",
       "demo": "https://wellbridgeai.resence.in",
-      "image": "/my-project.jpg"
+      "image": "/image-react.png"
     },
     {
       "id": 3,
@@ -43,7 +43,7 @@
       "technologies": ["TypeScript", "Node.js", "MCP", "NPM Package", "Payment APIs"],
       "github": "https://github.com/Piyush-Thakur7/razoragent",
       "demo": "https://razoragent.resence.in",
-      "image": "/my-project.jpg"
+      "image": "/image-react.png"
     }
   ],
   "education": [
